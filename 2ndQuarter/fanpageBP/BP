@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="shortcut icon" href="logo.png" />
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="peta.css">
+            <title>BLACKPINK | Home</title>
+        </head>
+
+        <body>
+            
+            <!-- Header / Navigation -->
+            <div class="banner">
+                <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F65e3539e66a28c43fd9c707233591ff3%2Fotee4.jpg">
+        
+                <div class="content">
+                    <h1 style="user-select:none" class="title">BLΛƆKPIИK IN YOUR AREA</h1>
+                    <p>Blackpink (Korean: 블랙핑크; commonly stylized as BLACKPINK or BLΛƆKPIИK) is a South Korean girl group formed by YG Entertainment, 
+                        consisting of members Jisoo, Jennie, Rosé, and Lisa. The group debuted in August 2016 with their single album Square One, 
+                        which featured "Whistle" and "Boombayah", their first number-one entries on South Korea's Gaon Digital Chart and the Billboard World Digital Song Sales chart, respectively.</p>
+                </div>
+            </div>
+            <!-- End of first full page -->
+
+            <!-- Members -->
+            <section class="members">
+                <h2 class="heading">Members</h2>
+                <p><i>From oldest to youngest:</i> Kim Jisoo, Jennie Kim, Park Chaeyoung, Lalisa Manoban.</p>
+
+                <div class="container">
+                    <div class="membersBx">
+                        <div>
+                            <a href="https://www.instagram.com/sooyaaa__/" target="_blank">
+                                <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F70a91c98cfc6f8559a0b380517fea683%2Fjisoo.png">
+                            </a>
+                            <h2>Jisoo Kim</h2>
+                        </div>
+
+                    <div class="membersBx">
+                        <div>
+                            <a href="https://www.youtube.com/channel/UCNYi_zGmR519r5gYdOKLTjQ" target="_blank">
+                                <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Ffc0b15ffc020048a7d0d6aa6af83644c%2Fjennie.png">
+                            </a>
+                            <h2>Jennie Kim</h2>
+                        </div>
+                    </div>
+
+                    <div class="membersBx">
+                        <div>
+                            <a href="https://www.instagram.com/roses_are_rosie/" target="_blank">
+                                <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Feb1a1c0806632b2509e59ae2941ea496%2Frosie.png">
+                            </a>
+                            <h2>Park Chaeyoung / Rosé</h2>
+                        </div>
+                    </div>
+
+                     <div class="membersBx">
+                        <div>
+                            <a href="https://www.youtube.com/channel/UC35HKvKYPkri4Grd5KXl3wQ" target="_blank">
+                                <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fc0c9244d24fd7af00ca480dee4a7c41f%2Flisa.png">
+                            </a>
+                            <h2>Lalisa Manoban / Lisa</h2>
+                        </div>
+                    </div>
+
+                    <p class="text">&#x3c;&#x3c; click the photos >></p>
+                </div>
+            </section>
+            <!-- End of Members Tab -->
+
+            <!-- yt -->
+            <center>
+            <section class="youtube">
+                <div class="contentBx"> 
+                        <br><br>
+                    <div class="heading">Latest Music Video</div> 
+                        <br><br>
+                    <div class="text">
+                        <p>
+                            On their latest comeback last October 2nd 2020, they released their first full album into their 4 years of debut 
+                        called "The Album" with Lovesick Girls as the title track. YG announced that they have recorded over 10 songs, 
+                        but 8 songs made into the final list which includes their 2 collaborations with Selena Gomes and Cardi B.
+                        </p>
+                    </div>
+                        <br><br>
+                <div class="lsg">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dyRsYk0LyA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>  
+            </section>
+            </center>
+            <!-- End of yt embed -->
+
+            <!-- The Show -->
+            <section class="theshow">
+                <div class="contentBx">
+                    <div class="heading">Latest Project: The Show</div>
+                    <div class="text">On December 3, 2020, YG Entertainment announced that Blackpink will hold their first online concert titled "The Show" on December 27, 2020. This concert is a collaboration between YG Entertainment and YouTube Music, this will be YG Entertainment's first online concert in YG's biggest online concert project chain called "YG Palm Stage" . Teaser for The Show was first posted on Blackpink's Youtube channel on December 23, 2020. The content of this online performance is available as a membership package on Youtube channel. The group is accompanied by some behind-the-scenes videos while the group is rehearsing for this show.
+
+                        But due to the effects of the COVID-19 epidemic in Korea, the concert was moved to January 31, 2021 in accordance with the pandemic regulations in that country at that time.
+                        
+                        On January 22, 2021, on page Twitter official, Blackpink had notice of the group will have a stream called "Sound Check Rehearsal Live" 1 day before the "The Show" for fans.
+                        
+                        This concert also caused great curiosity for Blackpink fans as member Rosé's solo song will be performed on this stage. However, many fans also expressed concern that Rosé's solo track performance would be affected if the song was performed in advance like this.</div>
+                </div>
+                <div class="imgBx"></div>
+            </section>
+            <!-- End of The Show -->
+
+            <!-- Footer --> 
+            <section class="footer">
+                <p class="text">Follow and get updates about BLACKPINK!</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/BLACKPINKOFFICIAL/" target="_blank"><img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fb9a3ba45d12f5d66f000276dac9d3d7d%2Ffb2.png"></a></li>
+                    <li><a href="https://twitter.com/blackpink" target="_blank"><img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F7c25e954a88b54f1758f8ae1f2b90a7f%2Ftwt2.png"></a></li>
+                    <li><a href="https://www.instagram.com/blackpinkofficial/" target="_blank"><img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F8dcb297277ad59bb4e4f0f56e8c3ffa5%2F1g2.png"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A" target="_blank"><img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fb302545c578ed79a12a7c422754f0b22%2Fyt2.png"></a></li>
+                </ul>
+            </section>
+            
+            <audio controls autoplay loop>
+                <source src="bgm.mp3" type="audio/mpeg">
+            </audio>  
+        </body>
+    </html>
