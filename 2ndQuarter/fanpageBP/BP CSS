@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow: overlay;
+    cursor: url('https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fda2689ad347dc31f891b2330c692a101%2Fcsr.png'), auto;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: pink;
+    border-radius: px;
+}
+
+.title {
+    color:  black;
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title { 
+    0%  {color: black;}
+    25% {color: pink;}
+    50% {color: black;}
+    75% {color: pink;}
+    100% {color: black;}
+  }
+
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.banner .content {
+    position: relative;
+    max-width: 780px;
+    text-align: center;
+}
+
+.banner .content h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.banner .content p {
+    color: black;
+    font-size: 16px;
+}
+
+.banner header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.banner header .logo {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.members {
+    background: black;
+    padding: 100px;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.members h2,p {
+    color: #fea9dd;
+}
+
+.members .container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.members .container .membersBx {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.members .container .membersBx img {
+    filter: grayscale(100%);
+    margin: 5px;
+}
+
+.members .container .membersBx img:hover {
+    filter: grayscale(0%);
+    filter: drop-shadow(8px 8px 10px gray);
+    transition: 0.5s;
+    transform: scale(1.025, 1.025);
+}
+
+.members .container .membersBx h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.theshow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.theshow .contentBx {
+    background: black;
+    padding: 80px;
+    width: 50%;
+}
+
+.theshow .contentBx .heading {
+    color: #fea9dd;
+}
+
+.theshow .contentBx .text {
+    color: #fff;
+}
+
+
+.heading {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.theshow .imgBx {
+    background-image: url('https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fd6f0b80fedb75b162711e3069e55a9b0%2Ftheshow.png');
+    width: 50%;
+    background-size: cover;
+    background-position:center ;
+}
+
+
+
+.youtube {
+    background-color: pink;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+.youtube .lsg {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.youtube .contentBx p {
+    max-width: 800px;
+    color: black;
+    margin-top: -10px;
+}
+
+audio {
+    opacity: 0.09;
+    position: fixed;
+    width: 200px;
+    left: 3px;
+    bottom: 5px;
+    z-index: 9999;
+}
+
+audio:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.footer {
+    background: #162c3b;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .text {
+    color: snow;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer ul li {
+    list-style: none;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer ul li a img {
+    filter: invert(1);
+    max-width: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer ul li a img:hover {
+    transform: scale(1.5, 1.5);
+}
