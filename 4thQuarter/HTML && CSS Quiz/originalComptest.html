@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      user-select: none;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: teal;
+        border-radius: 3px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      margin-bottom:  10px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #008080;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #009190;
+    }
+
+    body{
+      background-color: #0d0d0d;
+    }
+
+    .row{
+      background-color: white;
+      margin-left: 500px;
+      margin-right: 500px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      height: 250px;
+
+      width: 300px;
+    }
+
+    .row h1{
+      text-align: center;
+    }
+
+    .row .intro {
+      background-color: #008080;
+      border-radius: 15px;
+      margin: 1px;
+    }
+
+    .row .introp {
+      margin-top: 2px;
+      padding: 2px;
+    }
+
+    .row .introp p {
+      text-align: left;
+    }
+
+    .divider{
+      background-color: #008080;
+      text-align: center;
+      width: 100%;
+      margin: 20px;
+      margin-left: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      float: left;
+      color: white;
+    }
+
+    /* Questions */
+    .questionbox {
+      background-color: whitesmoke;
+      padding: 1px;
+      margin-bottom: 12px;
+      border-radius: 20px;
+      margin-left: 90px;
+      /*margin-right: 45px;*/
+      width: 500px;
+      float: left;
+
+      text-align: left;
+    }
+
+    .questionbox #question {
+      background-color: teal;
+      padding: 4px;
+      margin: 10px;
+      border-radius: 20px;
+    }
+
+    .questionbox #question p {
+      padding: 1px;
+      margin-left: 12px;
+      font-size: larger;
+    }
+
+    .questionbox #answers {
+      margin-left: 12px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+    }
+
+    #result {
+      color: white;
+      font-size: 20px;
+    }
+
+    .button {
+      background-color: teal;
+      border: none;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 230px;
+      cursor: pointer;
+    }
+
+    label:hover{
+      cursor: pointer;
+
+    }
+
+    </style>
+
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+      <title>HTML & CSS QUIZ</title>
+
+    </head>
+
+    <body>
+      <ul>
+        <li><a class="active" >Introduction</a></li>
+        <li><a href="#Partone">HTML</a></li>
+        <li><a href="#Parttwo">CSS</a></li>
+        <li style="float:right"><a href="#about">Computer Test</a></li>
+      </ul>
+
+      <div class="row">
+        <div class="intro">
+          <h1>Introduction</h1>
+        </div>
+
+        <div class="introp">
+          <p> Welcome to our Computer quiz! <br> This was made by Irish and Ram from St. Albert IX <br><br> Enjoy the quiz~</p>
+        </div>
+      </div>
+
+      <div class="divider" id="Partone">
+        HTML QUIZ
+      </div>
+
+      <form id="quiz" name="quiz">
+      <!-- Part 1 Quiz -->
+            <div class="questionbox">
+                <div id="question">
+                    <p>What is HTML?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qone" id="ans1" value="h1"> HyperText Markup Language
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qone" value="t1"> HyperTime Management Label
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qone" value="m1"> Hyperlinked Text Markup Language
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>What is HTML's primary function?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qtwo" value="h2"> Jollibee Orders
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qtwo" value="t2"> Music Making
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qtwo" id="ans2" value="m2"> Web Development
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>What does "p" stand for in html?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qthree" value="h3"> Paraform
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qthree" id="ans3" value="t3"> Paragraph
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qthree" value="m3"> Paraphrase
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>What does the formatting style "b" for?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qfour" value="h4"> Big
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfour" value="t4"> Bang
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfour" id="ans4" value="m4"> Bold
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which can't be used in font-style?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qfive" value="h5"> Slant
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfive" id="ans5" value="t5"> Italic
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfive" value="m5"> Initial
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>How many tags are in a regular element?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qsix" value="h6"> 3
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qsix" id="ans6" value="t6"> 2
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qsix" value="m6"> 1
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>&#x3c;hr&#x3e; is?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qseven" value="h7"> Horizontal Line
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qseven" id="ans7" value="t8"> Horizontal Rule
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qseven" value="m8"> Line tag
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which is the largest heading?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qeight" id="ans8"  value="h8"> &#x3c;h6&#x3e;
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qeight" value="t8"> &#x3c;h1&#x3e;
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qeight" value="m8"> &#x3c;h9&#x3e;
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>A closing tag has _ </p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qnine" id="ans9" value="h9"> /
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qnine" value="t9"> _
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qnine" value="m9"> //
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which of these tags has no end tag?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qten" value="h10"> &#x3c;p&#x3e;
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qten" id="ans10" value="t10"> &#x3c;br /&#x3e;
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qten" value="m10"> &#x3c;a&#x3e;
+                    </label>
+                </div>
+            </div>
+          </center>
+
+            <!-- End of part 1-->
+
+            <div class="divider" id="Parttwo">
+              CSS QUIZ
+            </div>
+
+            <!-- Part 2 Quiz -->
+
+            <div class="questionbox partone">
+                <div id="question">
+                    <p>Which is NOT used in sizing?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qeleven" value="c1"> Pixels
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qeleven" value="s1"> Percents
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qeleven" id="ans11" value="z1"> Feet
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>What is the primary function of CSS?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qtwelve" value="c2"> Adds action to HTML
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qtwelve" id="ans12" value="s2"> Shows how HTML should be displayed
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qtwelve" value="z2"> Helps audience easily navigate the webpage
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>What is "p" in p { color: teal; }</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qthirteen" value="c3"> Value
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qthirteen" id="ans13" value="s3"> Selector
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qthirteen" value="z3"> Property
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which doesn't belong to the group?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qfourteen" id="ans14" value="c4"> pr
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfourteen" value="s4"> vh
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfourteen" value="z4"> em
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which bg property is obligatory?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qfifteen" id="ans15" value="c5"> background-image
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfifteen" value="s5"> background-position
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qfifteen" value="z5"> background-repeat
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox partone">
+                <div id="question">
+                    <p>list-style-type is for?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qsixteen" value="c6"> the background of the list
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qsixteen" id="ans16" value="s6"> the bullets and numberings
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qsixteen" value="z6"> the font style
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Can photos be used as a bullet in lists?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="qseventeen" id="ans17" value="c7"> Yes
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qseventeen" value="s7"> I dunno
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="qseventeen" value="z7"> No
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which of these hides an empty table cell?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qeighteen" value="c8"> empty-space: hide
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qeighteen" id="ans18" value="s8"> empty-cell: hide
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qeighteen" value="z8"> clear-cell: hide
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>Which do not belong in the group?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qnineteen" id="ans19" ="c9"> stay
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qnineteen" value="s9"> sticky
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qnineteen" value="z9"> fixed
+                    </label>
+                </div>
+            </div>
+
+            <div class="questionbox">
+                <div id="question">
+                    <p>How do CSS get the location of an object?</p>
+                </div>
+
+                <div id="answers">
+                    <label class="radio">
+                        <input type="radio" name="Qtwenty" id="ans20" value="c10"> url()
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qtwenty" value="s10"> href
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="Qtwenty" value="z10"> getLink
+                    </label>
+                </div>
+            </div>
+            <center>
+            <button type="button" onclick="check()"class="button">Check Results!</button>
+            <button type="button" id="reset" onclick="window.location.reload()" class="button">Take Again</button>
+            <p id="result"></p>
+            </center>
+            <div class="divider" id="Parttwo" style="margin-bottom:0;">
+              THANK YOU FOR TAKING OUR QUIZ!!!~
+            </div>
+            <!-- <input type="input" class="form-control" id="res" placeholder="" style="width: 130px; height: 100px; color: black;"> -->
+          </form>
+    </body>
+
+    <script>
+    //disables right click button
+    document.addEventListener('contextmenu', function(e){
+    alert("Right click is disabled to prevent leaking the correct answers :>");
+    e.preventDefault();
+    });
+
+    //checks the results
+    function check() {
+        var correcthtml = 0;
+        var correctcss = 0;
+
+        if (document.getElementById("ans1").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans2").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans3").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans4").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans5").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans6").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans7").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans8").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans9").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans10").checked)
+        {
+            correcthtml++;
+        }
+
+
+        if (document.getElementById("ans11").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans12").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans13").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans14").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans15").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans16").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans17").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans18").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans19").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans20").checked)
+        {
+            correctcss++;
+        }
+
+        //document.getElementById("result").style.display="block";
+        document.getElementById("result").innerHTML = "Whew! You got " + correcthtml + " in html and you got " + correctcss + " in CSS! Overall you got " + (correcthtml + correctcss) + "!!";
+        // document.getElementById("res").value = correct;
+    }
+
+    </script>
+  </html>
