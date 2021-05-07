@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" href="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F34d902adcc4eb5de38ba666c86952953%2Fimage.png">
+            <link rel="stylesheet" type="text/css"href="clothingShop.css">
+            <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+
+                <!-- for bootstrap -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+                <!-- for carousel -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+            <title>Shop Now | ALLYNATICS</title>         
+        </head>
+
+        <body>
+            <div class="" style="margin-left: 40ppx; margin-right: 30px; align-items: center;">
+
+                <div class="navigation"> 
+                    <!-- navbar starts -->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav" style="text-align: left;">
+
+                        <a href="4_About.html" id="logo"><img class="logogo" id="lologo" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fac986704ea1a07e6d35eeb7b67365a4b%2Fcircle_cropped.png" width="65px" height="65px" alt="About"></a>
+                        <a href="2_MainPage.html" id="navItems" style="color: #f4e9e8; text-align: left;">HOME</a>
+                        <a href="3_Form.html" id="navItems" style="color: #f4e9e8;">BUY NOW</a>
+                        <div class="btn-group" id="navItems">
+                            <div class="btn-group">
+                            <button type="button" style="color: #f4e9e8;" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              CATEGORY
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#soft">Soft</a>
+                              <a class="dropdown-item" href="#grunge">Grunge</a>
+                              <a class="dropdown-item" href="#vintage">Vintage</a>
+                              <a class="dropdown-item" href="#artmom">Art Mom</a>
+                            </div>
+                        </div>
+
+
+                        <form class="form-inline my-2 my-lg-0" id="navSearch">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-light" type="submit" style="color: black;">Search</button>
+                        </form>
+                    </nav>
+                    <!-- navbar ends -->
+                </div>
+    
+                <br>
+                
+                    <!-- CAROUSEL FOR FEATURED PRODUCTS -->
+                <div>
+                    <div class="col" id="feature">
+                        <!-- use carousel for feature -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F16fc6be5b3d21eadb151637bf481103d%2FNew_Project__10_.png" alt="First slide">
+
+                                    <!-- use this class if you want to put label sa pictures -->
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h4 style="color: white; font-style: italic; font-family: serif;">FIND YOUR AESTHETIC</h4>
+                                    </div>
+                                    <!-- end of class -->
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F4556dfd08c7bfd8f131b06a6c5681b83%2FNew_Project__8_.png" alt="Second slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F7884daeb4105e8661289d2200c8b2414%2FNew_Project__9_.png" alt="Third slide">
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F5c94200bb1ed45b3518f0d1ea445b1d3%2FNew_Project__11_.png" alt="Fourth slide">
+                                </div>
+
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- carousel ends -->
+                    </div>
+
+                </div>
+                      
+                <!-- categories -->
+                <div >
+                    <br>
+                    
+                    <!-- Soft -->
+                    <div class="container" id="soft">
+
+                        <div class="row justify-content-center align-items-center">
+                            <h3>SOFT</h3>
+                        </div>
+
+                        <div class="row justify-content-center align-items-center"> 
+    
+                            <div class="row">
+
+                                <div class="col" id="product">
+                                    
+                                    <h5>Tshirts</h5>
+                                        <img src="https://i.pinimg.com/564x/e5/18/3c/e5183cf781be752ec8307b0417ea819c.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Shorts</h5>
+                                        <img src="https://i.pinimg.com/564x/95/a0/c1/95a0c1d7507715e484be04659aa05516.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Pants</h5>
+                                        <img src="https://i.pinimg.com/564x/36/1d/e4/361de469928c41f4f1836ae6c5df346d.jpg" alt="image" width="200px">
+                                </div>
+        
+
+                            </div>
+    
+                            <div class="row">
+                                
+                                <div class="col" id="product">
+                                    <h5>Dresses</h5>
+                                        <img src="https://i.pinimg.com/564x/7a/fe/f5/7afef5e9709418d804d215d2545c3f99.jpg" alt="image" width="200px">
+                                </div>
+
+                                <div class="col" id="product">
+                                    <h5>Skirts</h5>
+                                        <img src="https://cdn.shopify.com/s/files/1/1751/5037/products/itgirl-shop-gray-pink-school-style-grand-plaid-pleated-aesthetic-skirts-3691131732003_1020x.progressive.jpg?v=1569387563" alt="image" width="200px">
+                                </div>
+
+                                <div class="col" id="product">
+                                    <h5>Hoodies</h5>
+                                        <img src="https://i.pinimg.com/564x/d0/2a/67/d02a67f23a3c107e0694788fa29cdde2.jpg" alt="image" width="200px">
+                                </div>
+
+                            </div>
+                    </div>
+
+                    </div>
+    
+                    <br>
+                    
+                    <!-- grunge -->
+                    <div class="container" id="grunge">
+                         
+                            <div class="row justify-content-center align-items-center">
+                                <h3>GRUNGE</h3>
+                            </div>
+
+                            <div class="row justify-content-center align-items-center"> 
+
+                                <div class="row">
+
+                                    <div class="col" id="product">
+                                        <h5>Tshirts</h5>
+                                            <img src="https://i.pinimg.com/564x/ad/53/a9/ad53a94e0a91bf93c68fb91fa0adf078.jpg" alt="image" width="200px">
+                                    </div>
+            
+                                    <div class="col" id="product">
+                                        <h5>Shorts</h5>
+                                            <img src="https://i.pinimg.com/564x/2a/46/40/2a4640ea302c66f919d1a8ecf116372f.jpg" alt="image" width="200px">
+                                    </div>
+            
+                                    <div class="col" id="product">
+                                        <h5>Pants</h5>
+                                            <img src="https://i.pinimg.com/564x/0f/b0/62/0fb062a42ba0671d74d41ae947d412bd.jpg" alt="image" width="200px">
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+            
+                                    <div class="col" id="product">
+                                        <h5>Skirts</h5>
+                                            <img src="https://i.pinimg.com/564x/45/f2/d3/45f2d3f8be8c3c482b035870fcbed2cb.jpg" alt="image" width="200px">
+                                    </div>
+            
+                                    <div class="col" id="product">
+                                        <h5>Hoodies</h5>
+                                            <img src="https://i.pinimg.com/564x/23/06/80/230680c78728be9393b37189bbbfdbc1.jpg" alt="image" width="200px">
+                                    </div>
+            
+                                    <div class="col" id="product">
+                                        <h5>Dresses</h5>
+                                            <img src="https://waliicorners.com/wp-content/uploads/2019/07/Goth-Dark-Elegant-Grunge-Gothic-Summer-Dresses-Black-Sleeveless-Fashion-Dress-Aesthetic-Harajuku-Sexy-Evening-Party-1.jpg" alt="image" width="200px">
+                                    </div>
+
+                                </div>
+
+                            </div>
+                    </div>
+    
+                    <br>
+                    
+                    <!-- vintage -->
+                    <div class="container" id="vintage">
+                        
+                        <div class="row justify-content-center align-items-center">
+                            <h3>VINTAGE</h3>
+                            <!-- &#x21a0;  &#x219e; -->
+                        </div>
+                        
+                        <div class="row justify-content-center align-items-center">
+                            
+                            <div class="row">
+
+                                <div class="col" id="product">
+                                    <h5>Tshirts</h5>
+                                        <img src="https://i.pinimg.com/564x/31/c1/28/31c12897e71eb0505d54b858bfafbfce.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Shorts</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F30dbad904cfc5c8289195289c112a323%2FNew_Project__1_.png" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Pants</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Ff412f34dc59e3e4ab8a9425861e42da4%2FNew_Project__2_.png" alt="image" width="200px">
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+        
+                                <div class="col" id="product">
+                                    <h5>Skirts</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F1974973783319b751089a344606bf4e6%2FNew_Project__3_.png" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Hoodies</h5>
+                                        <img src="https://i.pinimg.com/564x/6c/e5/7e/6ce57e98936d94d21cc567b3328d3f0e.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Dresses</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F65ed2c83e5d3f2e42e7c2e4a11fe10eb%2FNew_Project__4_.png" alt="image" width="200px">
+                                </div>
+
+                            </div>
+                        
+                        </div>
+
+                    </div>
+    
+                    <br>
+                    
+                    <!-- artmom -->
+                    <div class="container" id="artmom">
+                        
+                        <div class="row justify-content-center align-items-center">
+                            <h3>ART MOM</h3>
+                        </div>
+    
+                        <div class="row justify-content-center align-items-center">
+                            
+                            <div class="row">
+
+                                <div class="col" id="product">
+                                    <h5>Tshirts</h5>
+                                        <img src="https://i.pinimg.com/564x/92/c6/a2/92c6a2820ce0641af8e96098914e3928.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Shorts</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2Fb8f4a8ab8233858e98bd937832509e66%2FNew_Project__5_.png" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Pants</h5>
+                                        <img src="https://i.pinimg.com/564x/59/69/a3/5969a3541b9f2fe21f1bd2f10ff24f6d.jpg" alt="image" width="200px">
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+        
+                                <div class="col" id="product">
+                                    <h5>Skirts</h5>
+                                        <img src="https://i.pinimg.com/564x/18/75/8b/18758b3c11c58f09e862289173980d38.jpg" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Hoodies</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F27dd439e1d04cf5fb0075f917d5dcf52%2FNew_Project__6_.png" alt="image" width="200px">
+                                </div>
+        
+                                <div class="col" id="product">
+                                    <h5>Dresses</h5>
+                                        <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F4f8d16bf08d3bd6c0e3073047df70b09%2FNew_Project__7_.png" alt="image" width="200px">
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                    <!--category ends-->
+    
+                    <br><hr>
+    
+                    <div class="footer">
+
+                        <p style="font-size:1.5vw;">Contact Us!</p>
+                        <p style="font-size:1vw;">This is the group Allynatics at your service, contact us via email fo any concerns. <br>The member list can be found when you click the <a href="#lologo" style="text-decoration: none; font-style: italic; color: #808080;">logo</a> at the top left corner of this page.</p>
+                        <br> 
+                        <p style="font-size:1vw;">Facebook: Astherielle PH<br>Instagram: @AstheriellePh<br> Official Website: www.Astherielle.com</p>
+
+                        <p style="font-size:1vw;">We do not own any of these photos! This project is for school purposes only!</p>
+                        <!-- <button onclick="alert('Thank You For Shopping!')">Checked</button> -->        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </body>
+    </html>
