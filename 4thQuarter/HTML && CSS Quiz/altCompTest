@@ -843,6 +843,5 @@
         document.getElementById("result").innerHTML = "Whew! You got " + score_html.fontcolor('red') + " in html and you got " +  score_css.fontcolor('red') + " in CSS! Overall you got " + total.fontcolor('red').big() + "!!";
         // document.getElementById("res").value = correct;
     }
-
     </script>
   </html>
