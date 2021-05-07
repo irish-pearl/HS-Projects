@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        user-select: none;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: black;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: teal;
+            border-radius: 3px;
+        }
+
+        .divider{
+        background-color: #008080;
+        text-align: center;
+        width: 100%;
+        margin: 20px;
+        margin-left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        float: left;
+        color: white;
+        }
+
+        .questionbox {
+        background-color: whitesmoke;
+        padding: 1px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-right: 45px;
+        width: 500px;
+        float: left;
+
+        text-align: left;
+        }
+
+        .questionbox #question {
+        background-color: teal;
+        padding: 4px;
+        margin: 10px;
+        border-radius: 20px; 
+        }
+
+        .questionbox #question p {
+        padding: 1px;
+        margin-left: 12px; 
+        font-size: larger;
+        }
+
+        .questionbox #answers {
+        margin-left: 12px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        }
+
+        .flex-parent {
+            display: flex;
+        }
+
+        .jc-center {
+            justify-content: center;
+        }
+    </style>
+
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML & CSS QUIZ</title>
+
+      <!--  -------------------------------------to get the compiled CSS and JavaScript---------------------------- -->
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    
+      <script src="jquery.js"></script>
+      <script src="jquery-ui.js"></script>
+      <!-- ------------------------------------------------------------------------------------------------------------ -->
+
+    </head>
+
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color: #008080;">QUIZ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#" style="color: #008080;"><strong>HOME</strong></a>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container-fluid" style="background-image: url('w.jfif');">
+
+            <div class="flex-parent jc-center">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h1 style="color: white; margin-top: 20px;">Basic HTML & CSS Quiz</h1>
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="flex-parent jc-center">
+                <div class="row">
+                    <div class="col-12">
+                        <p style="color: lightgrey; margin-bottom: 20px;">By Irish and Ram from St. Albert IX</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+          <div class="divider" id="Partone">
+            HTML
+          </div>
+    
+        <div class="container-fluid"> 
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                        <div class="questionbox">
+                            <div id="question">
+                                <p>What is HTML?</p>
+                            </div>
+            
+                            <div id="answers">
+                                <label class="radio">
+                                    <input type="radio" name="qone" id="ans1" value="h1"> HyperText Markup Language
+                                </label> <br>
+            
+                                <label class="radio">
+                                    <input type="radio" name="qone" value="t1"> HyperTime Management Label
+                                </label><br>
+            
+                                <label class="radio">
+                                    <input type="radio" name="qone" value="m1"> Hyperlinked Text Markup Language
+                                </label><br>
+                            </div>
+                        </div>  
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                        <div class="questionbox">
+                            <div id="question">
+                                <p>What is HTML's primary function?</p>
+                            </div>
+            
+                            <div id="answers">
+                                <label class="radio">
+                                    <input type="radio" name="qtwo" value="h2"> Jollibee Orders
+                                </label><br>
+            
+                                <label class="radio">
+                                    <input type="radio" name="qtwo" value="t2"> Music Making
+                                </label><br>
+            
+                                <label class="radio">
+                                    <input type="radio" name="qtwo" id="ans2" value="m2"> Web Development
+                                </label><br>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>What does "p" stand for in html?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qthree" value="h3"> Paraform
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qthree" id="ans3" value="t3"> Paragraph
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qthree" value="m3"> Paraphrase
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>What does the formatting style "b" for?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qfour" value="h4"> Big
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfour" value="t4"> Bang
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfour" id="ans4" value="m4"> Bold
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which can't be used in font-style?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qfive" value="h5"  id="ans5" > Slant
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfive"value="t5"> Italic
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfive" value="m5"> Initial
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>How many tags are in a regular element?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qsix" value="h6"> 3
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qsix" id="ans6" value="t6"> 2
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qsix" value="m6"> 1
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>&#x3c;hr&#x3e; is?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qseven" value="h7"> Horizontal Line
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qseven" id="ans7" value="t8"> Horizontal Rule
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qseven" value="m8"> Line tag
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which is the largest heading?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qeight" value="h8"> &#x3c;h6&#x3e;
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qeight" value="t8" id="ans8"> &#x3c;h1&#x3e;
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qeight" value="m8"> &#x3c;h9&#x3e;
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>A closing tag has _ </p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qnine" id="ans9" value="h9"> /
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qnine" value="t9"> _
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qnine" value="m9"> //
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which of these tags has no end tag?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qten" value="h10"> &#x3c;p&#x3e;
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qten" id="ans10" value="t10"> &#x3c;br /&#x3e;
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qten" value="m10"> &#x3c;a&#x3e;
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+
+        </div>
+
+        <div class="divider" id="Parttwo">
+            CSS
+        </div>
+
+        <div class="container-fluid"> 
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                        
+                    <div class="questionbox partone">
+                        <div id="question">
+                            <p>Which is NOT used in sizing?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qeleven" value="c1"> Pixels
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qeleven" value="s1"> Percents
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qeleven" id="ans11" value="z1"> Feet
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                        
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>What is the primary function of CSS?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qtwelve" value="c2"> Adds action to HTML
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qtwelve" id="ans12" value="s2"> Shows how HTML should be displayed
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qtwelve" value="z2"> Helps audience easily navigate the webpage
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>What is "p" in p { color: teal; }</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qthirteen" value="c3"> Value
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qthirteen" id="ans13" value="s3"> Selector
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qthirteen" value="z3"> Property
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which doesn't belong to the group?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qfourteen" id="ans14" value="c4"> pr
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfourteen" value="s4"> vh
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfourteen" value="z4"> em
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which bg property is obligatory?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qfifteen" id="ans15" value="c5"> background-image
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfifteen" value="s5"> background-position
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qfifteen" value="z5"> background-repeat
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox partone">
+                        <div id="question">
+                            <p>list-style-type is for?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qsixteen" value="c6"> the background of the list
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qsixteen" id="ans16" value="s6"> the bullets and numberings
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qsixteen" value="z6"> the font style
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Can photos be used as a bullet in lists?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="qseventeen" id="ans17" value="c7"> Yes
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qseventeen" value="s7"> I dunno
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="qseventeen" value="z7"> No
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which of these hides an empty table cell?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qeighteen" value="c8"> empty-space: hide
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qeighteen" id="ans18" value="s8"> empty-cell: hide
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qeighteen" value="z8"> clear-cell: hide
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>Which do not belong in the group?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qnineteen" id="ans19" value="c9"> stay
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qnineteen" value="s9"> sticky
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qnineteen" value="z9"> fixed
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                    
+                    <div class="questionbox">
+                        <div id="question">
+                            <p>How do CSS get the location of an object?</p>
+                        </div>
+        
+                        <div id="answers">
+                            <label class="radio">
+                                <input type="radio" name="Qtwenty" id="ans20" value="c10"> url()
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qtwenty" value="s10"> href
+                            </label>
+        
+                            <label class="radio">
+                                <input type="radio" name="Qtwenty" value="z10"> getLink
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="divider" id="Partone"></div>
+
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-6 d-flex justify-content-center">
+                        
+                        <button type="button" class="btn btn-outline-primary" onclick="check()">CHECK SCORE</button>
+    
+                </div>
+        
+    
+                <div class="col-6 d-flex justify-content-center">
+                        
+                        <button type="button" class="btn btn-outline-danger" id="reset" onclick="window.location.reload()">RESET</button>
+
+                </div>
+
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+
+                <div class="col-12 d-flex justify-content-center">
+                        
+                    <strong><p id="result"></p></strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="divider" id="Partone"></div>
+
+        <footer>
+
+            <div class="container" style="background-color: rgb(233, 230, 230); margin-top: 150px; margin-bottom: 50px;">
+
+                <div class="row">
+
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="social-icons" style="margin-top: 20px;"> 
+                            <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                            <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                            <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+                            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="row" style="margin-top: 10px;">
+
+                    <div class="col-12 d-flex justify-content-center">
+                        <p> All Rights Reserved. 2021.</p>
+                    </div>
+    
+                </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+
+    <script>
+    //disables right click button
+    document.addEventListener('contextmenu', function(e){
+    alert("Right click is disabled to prevent leaking the correct answers :>");
+    e.preventDefault();
+    });
+
+    //checks the results
+    function check() {
+        var correcthtml = 0;
+        var correctcss = 0;
+
+        if (document.getElementById("ans1").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans2").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans3").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans4").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans5").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans6").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans7").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans8").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans9").checked)
+        {
+            correcthtml++;
+        }
+        if (document.getElementById("ans10").checked)
+        {
+            correcthtml++;
+        }
+
+
+        if (document.getElementById("ans11").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans12").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans13").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans14").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans15").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans16").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans17").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans18").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans19").checked)
+        {
+            correctcss++;
+        }
+        if (document.getElementById("ans20").checked)
+        {
+            correctcss++;
+        }
+
+        var score_html = correcthtml.toString();
+        var score_css = correctcss.toString();
+        var score = +correctcss + +correcthtml;
+        var total = score.toString();
+
+        //document.getElementById("result").style.display="block";
+        document.getElementById("result").innerHTML = "Whew! You got " + score_html.fontcolor('red') + " in html and you got " +  score_css.fontcolor('red') + " in CSS! Overall you got " + total.fontcolor('red').big() + "!!";
+        // document.getElementById("res").value = correct;
+    }
+
+    </script>
+  </html>
