@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Numbers</title>
+            <!-- Irish Pearl S.
+            made in 2020 -->
+
+            <style>
+                body {
+                    background-image: url(https://wallpaperaccess.com/full/979465.gif);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .math { 
+                    background-color: skyblue;
+
+                    width: 500px;
+                    
+                    border-radius:10px;
+                    padding: 1px; 
+                    padding-left: 20px; 
+                    padding-bottom:20px;
+                    margin: auto;
+                    margin-top: 9px;
+
+                    opacity: 0.90;
+                }
+
+                .math p {
+                    font-family: monospace;
+                    justify-content: space-between;
+                    font-size: 25px;
+                }
+
+                .math .desc {
+                    font-size: 16px;
+                }
+
+                button {
+                    background-color: yellow;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    outline: 0;
+                }
+                
+                hr {
+                    width: 480px;
+                    margin-left: -1px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="math">
+                <p><strong>Math Time!!</strong></p>
+                <p class="desc">Given numbers are 23 and 19</p>
+
+                <br>
+
+                <button type="button" onclick="document.getElementById('mul').style.display='block';">Multiply</button>
+                <p id="mul" style="display:none; font-size: 15px;"></p>      
+                <br>
+                <button type="button" onclick="document.getElementById('div').style.display='block';">Divide</button>
+                <p id="div" style="display:none; font-size: 15px;"></p>
+                <br>
+                <button type="button" onclick="document.getElementById('add').style.display='block';">Add</button>
+                <p id="add" style="display:none; font-size: 15px;"></p>
+                <br>
+                <button type="button" onclick="document.getElementById('sub').style.display='block';">Subtract</button>
+                <p id="sub" style="display:none; font-size: 15px;"></p>
+                <br>
+
+                <hr>
+
+                <button type="button" onclick="document.getElementById('irish').style.display='block';">Creator</button>
+                <p id="irish" style="display:none; font-size: 15px;"></p>
+            </div>
+
+
+            <script>
+                var a = 23, b = 19, c; // Irish Pearl -- St. Albert The Great
+
+                c = a + b;
+                document.getElementById("add").innerHTML = "The sum of " + a + " and " + b + " is " + c;
+
+                c = a - b;
+                document.getElementById("sub").innerHTML = "The difference of " + a + " and " + b + " is " + c;
+
+                c = a * b;
+                document.getElementById("mul").innerHTML = "The product of " + a + " and " + b + " is " + c;
+
+                c = a / b;
+                document.getElementById("div").innerHTML = "The quotient of " + a + " and " + b + " is " + c;
+
+                var i = "Irish Pearl of 9 St. Albert"
+                document.getElementById("irish").innerHTML = "This is made by " + i + ".";
+            </script>
+        </body>
+    </html>
