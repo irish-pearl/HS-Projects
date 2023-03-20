@@ -1,4 +1,5 @@
-<!-- Made for a school project. 
+<!-- Sanorias, Irish Pearl
+Made for a school project. 
 Building my CSS skills.
 -->
 
@@ -17,14 +18,14 @@ Building my CSS skills.
 
                 body {
                     background-color: #f4e9e8;
-                    
+                    font-family: 'Courier New', Courier, monospace;
                 }
 
                 form {
                     background-image: url('https://66.media.tumblr.com/3090cf70a061b0f93f0a0aba4e276a53/db57d17d9bbf0bca-4a/s640x960/fc40c24ef4311ceddfd931c2eeab78734f877a8d.gif');
                     background-repeat: no-repeat;
                     background-size: cover;
-                    width: fit-content;
+                    width: 30%;
                     border-radius: 15px;
                     border-style: solid;
                     border-color: #605554;
@@ -32,13 +33,13 @@ Building my CSS skills.
                     top: 50%;
                     left: 75%;
                     transform: translate(-50%, -50%);
-                    padding: 10px;
-                    clear: both;
+                    padding: 1.4em;
+                    /* clear: both; */
                 }
 
                 form p {
                     font-family: 'Courier New', Courier, monospace;
-                    font-weight: 10;
+                    font-weight: 700;
                     text-align: left;
                 }
 
@@ -66,40 +67,50 @@ Building my CSS skills.
 
         <body>
                 <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_648%2Cw_1280&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F410147540%2F34d902adcc4eb5de38ba666c86952953%2Fimage.png" class="logo">
+                
                 <form>
-                    <p>
-                    Name:<br>
-                    <input type="text" style="width: 100%;"><br><br>
+                    <p>Name:</p>
+                        <input type="text" style="width: 100%;"><br><br>
 
-                    Address:<br>
-                    <input type="text" style="width: 100%;"><br><br>
+                    <p>Address:</p>
+                        <input type="text" style="width: 100%;"><br><br>
 
-                    Cellphone Number:<br>
-                    <input type="text" style="width: 100%;"><br><br>
+                    <p>Cellphone Number:</p>
+                        <input type="text" style="width: 100%;"><br><br>
                     
                     <br>
-                    Aesthetic:<br>
-                    <input type="radio">Soft<br/>
-                    <input type="radio">Grunge<br/>
-                    <input type="radio">Art Mom<br/>
-                    <input type="radio">vintage<br/><br/>
                     
-                    Clothings:<br>
-                    <input type="checkbox">Tshirt<br/>
-                    <input type="checkbox">Shorts<br/>
-                    <input type="checkbox">Pants<br/>
-                    <input type="checkbox">SKirts<br/>
-                    <input type="checkbox">Hoodies<br/>
-                    <input type="checkbox">Dresses<br/>
+                    <!-- Aesthetic Options-->
+
+                    <p class="inputRequire">Aesthetic:</p>
+                        <input type="radio" name="aesthetic" id="soft" value="soft"> Soft<br/>
+                        <input type="radio" name="aesthetic" id="grunge" value="grunge"> Grunge<br/>
+                        <input type="radio" name="aesthetic" id="artMom" value="artMom"> Art Mom<br/>
+                        <input type="radio" name="aesthetic" id="vintage" value="vintage"> vintage<br/><br/>
+
+                    <!-- Clothing Type Options-->
+                    
+                    <p class="inputRequire">Clothings:</p>
+                        <input type="checkbox"> Tshirt<br/>
+                        <input type="checkbox"> Shorts<br/>
+                        <input type="checkbox"> Pants<br/>
+                        <input type="checkbox"> SKirts<br/>
+                        <input type="checkbox"> Hoodies<br/>
+                        <input type="checkbox"> Dresses<br/>
 
                     <br>
-                    Payment Method:<br>
-                    <input type="radio"> Debit Card/Credit Card<br/>
-                    <input type="radio"> Gcash/Paypal/Paymaya<br/>
-                    <input type="radio"> Cash On Delivery<br/><br/>
 
-                    <input type="submit" value="submit" class="button">
-                    <input type="reset" value="reset" class="button">
+                    <!-- Payment Method Options-->
+
+                    <p class="inputRequire">Payment Method:</p>
+                        <input type="radio" name="paymentMethod" id="card" value="card"> Debit/Credit Card<br>
+                        <input type="radio" name="paymentMethod" id="onlinePayment" value="onlinePayment"> Gcash/Paypal/Maya<br>
+                        <input type="radio" name="paymentMethod" id="COD" value="COD"> Cash on delivery<br>
+
+                    <br>
+
+                    <input type="submit" value="submit" class="button"> <br> <br>
+                    <input type="reset" value="reset" class="button"> <br> <br>
                     <input type="button" onclick="window.location.href='2_MainPage.html';" value="back to shop" class="button">
                 </form>
         </body>
